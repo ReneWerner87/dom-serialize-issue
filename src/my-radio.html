@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my-radio</title>
+</head>
+<body>
+  <h1>my-radio</h1>
+  <p>Stencil 4.36.0 vs 4.35.2 - serializeInputElements crash</p>
+  <my-radio name="choice" value="option-a" label="Option A" checked="true"></my-radio>
+  <my-radio name="choice" value="option-b" label="Option B" checked="false"></my-radio>
+
+  <script type="module" src="/build/dom-serialize-issue.esm.js"></script>
+  <script nomodule src="/build/dom-serialize-issue.js"></script>
+</body>
+</html>

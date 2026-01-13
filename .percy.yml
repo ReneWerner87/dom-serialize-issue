@@ -1,0 +1,8 @@
+version: 2
+percy:
+    token: web_fake
+snapshot:
+    widths: # default is "[375, 1280]"
+    - 375
+    - 1280
+    minHeight: 2000 # default is "1024"

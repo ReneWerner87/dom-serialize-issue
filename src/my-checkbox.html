@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my-checkbox</title>
+</head>
+<body>
+  <h1>my-checkbox</h1>
+  <p>Stencil 4.36.0 vs 4.35.2 - serializeInputElements crash</p>
+  <my-checkbox name="terms" value="yes" label="Accept terms" checked="true"></my-checkbox>
+  <my-checkbox name="terms" value="no" label="Decline terms" checked="false"></my-checkbox>
+
+  <script type="module" src="/build/dom-serialize-issue.esm.js"></script>
+  <script nomodule src="/build/dom-serialize-issue.js"></script>
+</body>
+</html>

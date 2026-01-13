@@ -1,0 +1,18 @@
+serve: www
+snapshots:
+  - name: my-select
+    url: /my-select.html
+    waitForSelector: 'my-select.hydrated select'
+    waitForTimeout: 500
+  - name: my-input
+    url: /my-input.html
+    waitForSelector: 'my-input.hydrated input'
+    waitForTimeout: 500
+  - name: my-radio
+    url: /my-radio.html
+    waitForSelector: 'my-radio.hydrated input'
+    waitForTimeout: 500
+  - name: my-checkbox
+    url: /my-checkbox.html
+    waitForSelector: 'my-checkbox.hydrated input'
+    waitForTimeout: 500

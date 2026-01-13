@@ -1,0 +1,7 @@
+node_modules
+www
+dist
+build
+playwright-report
+test-results
+.stencil
